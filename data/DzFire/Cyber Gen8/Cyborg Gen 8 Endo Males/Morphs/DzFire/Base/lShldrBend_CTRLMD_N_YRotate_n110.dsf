@@ -1,0 +1,52 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/Morphs/DzFire/Base/lShldrBend_CTRLMD_N_YRotate_n110.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "DzFire",
+			"email" : "",
+			"website" : "www.daz3d.com/dzfire"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-01-20T17:25:47Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_YRotate_n110",
+			"name" : "CTRLMD_N_YRotate_n110",
+			"parent" : "/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lShldrBend",
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_YRotate_n110",
+				"label" : "CTRLMD_N_YRotate_n110",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "lShldrBend:#CTRLMD_N_YRotate_n110?value",
+					"operations" : [
+						{ "op" : "push", "url" : "lShldrBend:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lShldrBend?rotation/y" },
+						{ "op" : "push", "val" : -0.009091001 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_YRotate_n110-1",
+				"url" : "#CTRLMD_N_YRotate_n110"
+			}
+		]
+	}
+}

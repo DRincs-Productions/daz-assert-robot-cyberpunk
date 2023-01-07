@@ -1,0 +1,276 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Cyborg%20Gen%208%20Male/Materials/Base%20Materials/Iray/Eyes%20Glow%20Blue.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "DzFire",
+			"email" : "",
+			"website" : "www.daz3d.com/dzfire"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-01-20T16:11:35Z"
+	},
+	"material_library" : [
+		{
+			"id" : "led",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Emission Color",
+								"type" : "float_color",
+								"label" : "Emission Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Emission Temperature",
+								"type" : "float",
+								"label" : "Emission Temperature (K)",
+								"value" : 6500,
+								"min" : 0,
+								"max" : 10000,
+								"clamped" : true,
+								"step_size" : 100
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Two Sided Light",
+								"type" : "bool",
+								"label" : "Two Sided Light",
+								"value" : true
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Emission Profile",
+								"type" : "file",
+								"label" : "Emission Profile",
+								"value" : "",
+								"file_type" : "file_open",
+								"file_filter" : "IES (*.ies)"
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Luminance",
+								"type" : "float",
+								"label" : "Luminance (cd/m^2)",
+								"value" : 1500,
+								"min" : 0,
+								"max" : 10000,
+								"step_size" : 50,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Luminance Units",
+								"type" : "enum",
+								"label" : "Luminance Units",
+								"value" : 0,
+								"enum_values" : [ "cd/m^2", "kcd/m^2", "cd/ft^2", "cd/cm^2", "lm", "W" ]
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Luminous Efficacy",
+								"type" : "float",
+								"label" : "Luminous Efficacy (lm/W)",
+								"visible" : false,
+								"value" : 15,
+								"min" : 0,
+								"max" : 10000,
+								"step_size" : 5
+							},
+							"group" : "/Emission",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 1, 1, 0.8 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#led",
+				"groups" : [ "led" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/value",
+				"keys" : [ [ 0, [ 0.1568628, 0.1568628, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Temperature/value",
+				"keys" : [ [ 0, 10000 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Two%20Sided%20Light/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Emission%20Profile/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/value",
+				"keys" : [ [ 0, 1000 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminance%20Units/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/led:?extra/studio_material_channels/channels/Luminous%20Efficacy/value",
+				"keys" : [ [ 0, 15 ] ]
+			}
+		]
+	}
+}
