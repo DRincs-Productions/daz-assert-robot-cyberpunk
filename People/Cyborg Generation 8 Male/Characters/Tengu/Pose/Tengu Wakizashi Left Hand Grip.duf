@@ -1,0 +1,974 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Cyborg%20Generation%208%20Male/Characters/Tengu/Pose/Tengu%20Wakizashi%20Left%20Hand%20Grip.duf",
+		"type" : "preset_hierarchical_pose",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2019-03-19T17:36:43Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "cyberg8_204090",
+				"url" : "name://@selection/cyberg8_204090:"
+			},
+			{
+				"id" : "hip",
+				"url" : "name://@selection/hip:",
+				"parent" : "#cyberg8_204090"
+			},
+			{
+				"id" : "abdomenLower",
+				"url" : "name://@selection/abdomenLower:",
+				"parent" : "#hip"
+			},
+			{
+				"id" : "abdomenUpper",
+				"url" : "name://@selection/abdomenUpper:",
+				"parent" : "#abdomenLower"
+			},
+			{
+				"id" : "chestLower",
+				"url" : "name://@selection/chestLower:",
+				"parent" : "#abdomenUpper"
+			},
+			{
+				"id" : "chestUpper",
+				"url" : "name://@selection/chestUpper:",
+				"parent" : "#chestLower"
+			},
+			{
+				"id" : "lCollar",
+				"url" : "name://@selection/lCollar:",
+				"parent" : "#chestUpper"
+			},
+			{
+				"id" : "lShldrBend",
+				"url" : "name://@selection/lShldrBend:",
+				"parent" : "#lCollar"
+			},
+			{
+				"id" : "lShldrTwist",
+				"url" : "name://@selection/lShldrTwist:",
+				"parent" : "#lShldrBend"
+			},
+			{
+				"id" : "lForearmBend",
+				"url" : "name://@selection/lForearmBend:",
+				"parent" : "#lShldrTwist"
+			},
+			{
+				"id" : "lForearmTwist",
+				"url" : "name://@selection/lForearmTwist:",
+				"parent" : "#lForearmBend"
+			},
+			{
+				"id" : "lHand",
+				"url" : "name://@selection/lHand:",
+				"parent" : "#lForearmTwist"
+			},
+			{
+				"id" : "lThumb1",
+				"url" : "name://@selection/lThumb1:",
+				"parent" : "#lHand"
+			},
+			{
+				"id" : "lThumb2",
+				"url" : "name://@selection/lThumb2:",
+				"parent" : "#lThumb1"
+			},
+			{
+				"id" : "lThumb3",
+				"url" : "name://@selection/lThumb3:",
+				"parent" : "#lThumb2"
+			},
+			{
+				"id" : "lCarpal1",
+				"url" : "name://@selection/lCarpal1:",
+				"parent" : "#lHand"
+			},
+			{
+				"id" : "lIndex1",
+				"url" : "name://@selection/lIndex1:",
+				"parent" : "#lCarpal1"
+			},
+			{
+				"id" : "lIndex2",
+				"url" : "name://@selection/lIndex2:",
+				"parent" : "#lIndex1"
+			},
+			{
+				"id" : "lIndex3",
+				"url" : "name://@selection/lIndex3:",
+				"parent" : "#lIndex2"
+			},
+			{
+				"id" : "lCarpal2",
+				"url" : "name://@selection/lCarpal2:",
+				"parent" : "#lHand"
+			},
+			{
+				"id" : "lMid1",
+				"url" : "name://@selection/lMid1:",
+				"parent" : "#lCarpal2"
+			},
+			{
+				"id" : "lMid2",
+				"url" : "name://@selection/lMid2:",
+				"parent" : "#lMid1"
+			},
+			{
+				"id" : "lMid3",
+				"url" : "name://@selection/lMid3:",
+				"parent" : "#lMid2"
+			},
+			{
+				"id" : "lCarpal3",
+				"url" : "name://@selection/lCarpal3:",
+				"parent" : "#lHand"
+			},
+			{
+				"id" : "lRing1",
+				"url" : "name://@selection/lRing1:",
+				"parent" : "#lCarpal3"
+			},
+			{
+				"id" : "lRing2",
+				"url" : "name://@selection/lRing2:",
+				"parent" : "#lRing1"
+			},
+			{
+				"id" : "lRing3",
+				"url" : "name://@selection/lRing3:",
+				"parent" : "#lRing2"
+			},
+			{
+				"id" : "lCarpal4",
+				"url" : "name://@selection/lCarpal4:",
+				"parent" : "#lHand"
+			},
+			{
+				"id" : "lPinky1",
+				"url" : "name://@selection/lPinky1:",
+				"parent" : "#lCarpal4"
+			},
+			{
+				"id" : "lPinky2",
+				"url" : "name://@selection/lPinky2:",
+				"parent" : "#lPinky1"
+			},
+			{
+				"id" : "lPinky3",
+				"url" : "name://@selection/lPinky3:",
+				"parent" : "#lPinky2"
+			}
+		],
+		"animations" : [
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lHand:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lHand?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?rotation/x/value",
+				"keys" : [ [ 0, 36 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?rotation/y/value",
+				"keys" : [ [ 0, 2.213163 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?rotation/z/value",
+				"keys" : [ [ 0, -18.36893 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?rotation/y/value",
+				"keys" : [ [ 0, 26.27147 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?rotation/y/value",
+				"keys" : [ [ 0, 37.45246 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThumb3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lThumb3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?rotation/x/value",
+				"keys" : [ [ 0, -4.864388 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?rotation/y/value",
+				"keys" : [ [ 0, -1.280175 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?rotation/z/value",
+				"keys" : [ [ 0, -82.52428 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?rotation/z/value",
+				"keys" : [ [ 0, -74.33009 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?rotation/z/value",
+				"keys" : [ [ 0, -58.49515 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lIndex3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lIndex3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?rotation/x/value",
+				"keys" : [ [ 0, 2.004585 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?rotation/y/value",
+				"keys" : [ [ 0, -4.906754 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?rotation/z/value",
+				"keys" : [ [ 0, -94.29611 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?rotation/z/value",
+				"keys" : [ [ 0, -58.99515 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?rotation/z/value",
+				"keys" : [ [ 0, -70.7767 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMid3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lMid3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?rotation/x/value",
+				"keys" : [ [ 0, 1.597024 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?rotation/y/value",
+				"keys" : [ [ 0, -3.880417 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?rotation/z/value",
+				"keys" : [ [ 0, -90 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?rotation/z/value",
+				"keys" : [ [ 0, -67.51456 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?rotation/z/value",
+				"keys" : [ [ 0, -53.68932 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lRing3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lRing3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lCarpal4:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lCarpal4?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?rotation/x/value",
+				"keys" : [ [ 0, 5 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?rotation/y/value",
+				"keys" : [ [ 0, -4.474298 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?rotation/z/value",
+				"keys" : [ [ 0, -71.65049 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky1:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?rotation/z/value",
+				"keys" : [ [ 0, -65.81068 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky2:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?rotation/z/value",
+				"keys" : [ [ 0, -47.81554 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lPinky3:/data/DzFire/Cyber%20Gen8/Cyborg%20Gen%208%20Endo%20Males/cyberg8_204090.dsf#lPinky3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}
